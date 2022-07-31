@@ -18,12 +18,13 @@ This repo consists of some of the basic java programs which i have done as part 
 ## Execution of a java program.
  To understand the execution of a java program. We need to be familiar with three words.
  
- ### Source code 
+ ### Source Code 
  It is the code developed by the programmer 
   
- ### Object code 
+ ### Object Code 
  It is the program which can be interpreted by the system.
  It contains 0's and 1's
  It is obtained by compiling the source code.
 
-
+ ### Byte Code 
+ Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any relationship with the system.
