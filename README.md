@@ -28,3 +28,14 @@ This repo consists of some of the basic java programs which i have done as part 
 
  ### Byte Code 
  Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any relationship with the system.
+
+Unlike other languages java doesn't convert its source to object code directly.
+When we try to execute our code. The java interpreter converts the byte code into object code.
+
+
+![image](https://user-images.githubusercontent.com/99969931/182023976-a7625bf1-d952-4408-bf3a-3341da768d8b.png)
+
+
+In this way a java program works similar in different operating systems 
+Anyways, All the system dependencies will be taken care by the JVM(Java Virtual Machine).
+
