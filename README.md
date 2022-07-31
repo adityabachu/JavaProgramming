@@ -23,6 +23,7 @@ This repo consists of some of the basic java programs which i have done as part 
   
  ### Object code 
  It is the program which can be interpreted by the system.
- I
-t contains 0's and 1's 
+ It contains 0's and 1's
+ It is obtained by compiling the source code.
+
 
