@@ -19,15 +19,15 @@ This repo consists of some of the basic java programs which i have done as part 
  To understand the execution of a java program. We need to be familiar with three words.
  
  ### Source Code 
-   It is the code developed by the programmer 
+     It is the code developed by the programmer 
   
  ### Object Code 
-   It is the program which can be interpreted by the system.
-   It contains 0's and 1's
-   It is obtained by compiling the source code.
+     It is the program which can be interpreted by the system.
+     It contains 0's and 1's
+     It is obtained by compiling the source code.
 
  ### Byte Code 
-   Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any     relationship with the system.
+     Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any     relationship with the system.
 
 Unlike other languages java doesn't convert its source to object code directly.
 When we try to execute our code. The java interpreter converts the byte code into object code.
