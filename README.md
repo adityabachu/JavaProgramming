@@ -92,6 +92,7 @@ For ex :-
     We use integer to store numbers, If the number we want to store is huge we use 'long' before int. Using this the compiler assigns more space to that variable.
     
     We can use 'float' or 'double' for storing decimal numbers like 20.556, 45.675.
+    
     float is of size 4 bytes.
     double is of size 8 bytes.
     
