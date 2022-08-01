@@ -61,4 +61,6 @@ In a nutshell,
 
      JVM + JRE = JDK
      
+  ![image](https://user-images.githubusercontent.com/99969931/182082358-af467ceb-01a5-4fe7-9c84-70ef20080d90.png)
+
 A JDK provides all the tools required for java development.
