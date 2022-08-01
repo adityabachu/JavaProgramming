@@ -104,3 +104,10 @@ For ex :-
     
     If we want to store multiple characters we can use 'String'.
     
+In C language char occupies only 1 byte of memory, whereas in java char occupies 2 byes.
+
+This is because 'C' uses ASCII(American Standard Code for Information Interchange) system.
+
+ASCII system consists of 128 characters i.e; 0-127.
+These can be easily fit in 1 byte(8 bits) of memory.
+
