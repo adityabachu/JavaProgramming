@@ -113,4 +113,9 @@ This is because 'C' uses ASCII(American Standard Code for Information Interchang
 ASCII system consists of 128 characters i.e; 0-127.
 These can be easily fit in 1 byte(8 bits) of memory.
 
+Java Uses UNICODE system.
+It supports more symbols than in the ASCII.
+There are total of 1,114,112 characters in unicode.
+Starting from \U0000 to U+10FFFF.
+To fit all this characters java uses 2 bytes.
 
