@@ -39,3 +39,26 @@ When we try to execute our code. The java interpreter converts the byte code int
 In this way a java program works similar in different operating systems.
 Anyways, All the system dependencies will be taken care by the JVM(Java Virtual Machine).
 
+## JVM, JRE, JDK
+
+These three are platform independent, with the help ot these three a java program becomes platform independent.
+
+### JVM(Java Virtual Machine)
+
+As the name suggets, it doesn't exist physically.
+JVM executes the byte code.
+
+### JRE(Java Runtime Environment)
+
+It consists of JVM as well as all the libraries required for the program to execute.
+
+![image](https://user-images.githubusercontent.com/99969931/182081772-760a9d3f-ee1b-4d42-99de-4d965a1e43a6.png)
+
+
+### JDK(Java Development Kit)
+
+In a nutshell,
+
+     JVM + JRE = JDK
+     
+A JDK provides all the tools required for java development.
