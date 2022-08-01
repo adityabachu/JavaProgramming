@@ -1,7 +1,9 @@
 # JavaPrograms
+
 This repo consists of some of the basic java programs which i have done as part of my learning. 
 
 ## Features of Java (Java Buzzwords) :- 
+
  1) Object oriented 
  2) Simple 
  3) Secured 
@@ -27,7 +29,7 @@ This repo consists of some of the basic java programs which i have done as part 
      It is obtained by compiling the source code.
 
  ### Byte Code 
-     Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any     relationship with the system.
+     Byte code is the speciality of java.After the code is compiled a byte code is generated and it does not have any relationship with the system.
 
 Unlike other languages java doesn't convert its source to object code directly.
 When we try to execute our code. The java interpreter converts the byte code into object code.
@@ -110,4 +112,5 @@ This is because 'C' uses ASCII(American Standard Code for Information Interchang
 
 ASCII system consists of 128 characters i.e; 0-127.
 These can be easily fit in 1 byte(8 bits) of memory.
+
 
