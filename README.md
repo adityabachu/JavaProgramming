@@ -127,3 +127,16 @@ Many concepts are involved in that single line.
 As we all know java is object-oriented language.
 So every code we write should be enclosed within a class and the file name associated with it should be same as it's class name.
 
+
+![image](https://user-images.githubusercontent.com/99969931/182094331-e1b2ee31-7d31-4890-b643-b4cd7fb920cf.png)
+
+
+The signature of main function :- public static void main (String[] args)
+
+public means it can be used by everyone.
+static means we need not to create an object to call the method.
+void is the return type of the method.
+main is the method name.
+String[] args is an array of arguments of type String.
+
+When we run a java program, if we want to pass the parameters directly from the command line we can pass those values directly. we call them as command line arguments.
