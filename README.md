@@ -84,3 +84,22 @@ In this way each data type has its own significance.
 ![image](https://user-images.githubusercontent.com/99969931/182083801-03678968-b5c0-45bd-b51a-6f87c5f37750.png)
 
 Choosing a correct data type for a variable is very essential. If not assigned properly it may lead to errors and memory wastage.
+
+Each data type has a size and its own purpose.
+
+For ex :- 
+    
+    We use integer to store numbers, If the number we want to store is huge we use 'long' before int. Using this the compiler assigns more space to that variable.
+    
+    We can use 'float' or 'double' for storing decimal numbers like 20.556, 45.675.
+    float is of size 4 bytes.
+    double is of size 8 bytes.
+    
+    boolean stores only two values. i.e; 'true', 'false'.
+    
+    Arrays are used to store multiple values at a time.
+    
+    To read only a single character we can use 'char'.
+    
+    If we want to store multiple characters we can use 'String'.
+    
