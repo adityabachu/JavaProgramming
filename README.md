@@ -64,3 +64,23 @@ In a nutshell,
   ![image](https://user-images.githubusercontent.com/99969931/182082358-af467ceb-01a5-4fe7-9c84-70ef20080d90.png)
 
 A JDK provides all the tools required for java development.
+
+## Data types & Variables in java.
+
+### Variable.
+
+A variable is not just a value.
+Variable is a memory location of a data type.
+
+### Data types.
+
+1) numeric to perform arithmetic operations.
+2) boolean to perform conditions.
+3) string for alpha-numeric.
+4) array to store more than one value.
+
+In this way each data type has its own significance.
+
+![image](https://user-images.githubusercontent.com/99969931/182083801-03678968-b5c0-45bd-b51a-6f87c5f37750.png)
+
+Choosing a correct data type for a variable is very essential. If not assigned properly it may lead to errors and memory wastage.
