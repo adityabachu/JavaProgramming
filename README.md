@@ -119,3 +119,11 @@ There are total of 1,114,112 characters in unicode.
 Starting from \U0000 to U+10FFFF.
 To fit all this characters java uses 2 bytes.
 
+## Java's Hello World Program
+
+Unlike many other languages java's Hello World Program doesn't contain only single line of code.
+It has a structure.
+Many concepts are involved in that single line.
+As we all know java is object-oriented language.
+So every code we write should be enclosed within a class and the file name associated with it should be same as it's class name.
+
