@@ -140,3 +140,23 @@ main is the method name.
 String[] args is an array of arguments of type String.
 
 When we run a java program, if we want to pass the parameters directly from the command line we can pass those values directly. we call them as command line arguments.
+
+## Printing in Java
+
+Whenever we write any code, we need to be conscious about two things
+
+    1) The way we are giving input.
+    2) The way we are recieving output.
+    
+Now,How we can print the output?
+    System.out is the package we use to print the output on the console
+    
+Whatever we are passing to this function that prints as the output.
+
+To print strings we enclose them with quotations("")
+
+To print the output in the same line we use System.out.print()
+
+To print the output in the different line we use System.out.println()
+
+    
