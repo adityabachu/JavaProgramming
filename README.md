@@ -159,4 +159,36 @@ To print the output in the same line we use System.out.print()
 
 To print the output in the different line we use System.out.println()
 
+To print string along with variables :
+  
+    class HelloWorld{
+        public static void main(String[] args) {
+        
+          int a=10,b=20;
+            System.out.println("Value of a is : "+a);
+          System.out.println("Value of b is : "+b);
+         }
+    }
+
+If there are strings to the left as well as right to the variable then we place the variable in between two '+' symbols
+
+    class HelloWorld{
+        public static void main(String[] args) {
+        
+          int a=10,b=20;
+            System.out.println("a = "+a+"and b = "+b);
+          
+         }
+    }
     
+To print a variable just pass it directly.
+
+     class HelloWorld{
+        public static void main(String[] args) {
+        
+          int a=10;
+            System.out.println(a);
+          
+         }
+    }
+
