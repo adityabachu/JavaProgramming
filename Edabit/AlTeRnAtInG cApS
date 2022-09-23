@@ -1,0 +1,21 @@
+public class Program {
+	public static String alternatingCaps(String s) {
+		String result = ""; //This string will be returned
+		int index = 0; // index counter
+		char ch[] = s.toCharArray(); // converting the string to char array for accessing string elements
+		for(int i = 0; i < ch.length; i++) // Iterate through the charArray
+		{
+			if (ch[i] == ' ') // base case
+			{
+				// add a space to the resultant string and skip the iteration. Since, we need to make any changes to the tabspace.
+				result += ' '; 
+				continue;
+			}
+			else if(index % 2 == 0) { result += Character.toUpperCase(ch[i]); } // Capitalize the character if the index counter is even
+			else { result += Character.toLowerCase(ch[i]); } // To make the every alternate character to lower case
+			index++; // Increment the index counter.
+		}
+		return result;
+	
+	}
+}
