@@ -1,0 +1,11 @@
+public class FindTheBomb {
+	public static String bomb(String str) {
+		// convert the string to lower or upper case.
+		str = str.toLowerCase(); 
+		// check for the string in the case in which it has been converted and return the output accordingly
+		if(str.contains("bomb")) 
+			return "DUCK!"; 
+		else
+			return "Relax, there's no bomb."; 
+	}
+}
