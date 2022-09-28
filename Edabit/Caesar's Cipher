@@ -1,0 +1,36 @@
+public class Challenge {
+  public static String caesarCipher(String s, int k) {
+    
+    //Initate a StringBuilder.
+    StringBuilder result = new StringBuilder();
+    
+    //walk through each character in the incoming string.
+    for(int i = 0; i < s.length(); i++)
+    {
+      //assign the character to a variable.
+      char ch = s.charAt(i);
+    
+      //check to determine if the character is uppercase.
+      if(Character.isUpperCase(ch))
+      {
+        /* Apply the rotation factor for uppercase ascii characters
+          and append the result to the StringBuilder. */
+        
+        result.append((char)(((int)ch+k-65)%26+65));
+      }
+    else if(Character.isLowerCase(ch))
+    {
+      /* Apply the rotation factor for lowercase ascii characters
+          and append the result to the StringBuilder. */
+      result.append((char)(((int)ch+k-97)%26+97));
+    }
+      //for some special characters like '-'
+    else
+    {
+      result.append(ch);
+    }
+  }
+    //Return after converting the StringBuilder to String.
+    return result.toString();
+}
+}
