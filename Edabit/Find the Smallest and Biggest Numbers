@@ -1,0 +1,21 @@
+public class Challenge {
+	public static double[] minMax(double[] arr) {
+  // for finding the smallest element in the array
+		double min = arr[0]; 
+		for(int i = 1; i < arr.length; i++)
+		{
+			if(arr[i] < min)
+				min = arr[i];
+		}
+    // for finding the biggest element in the array
+		double max = arr[0];
+		for(int i = 1; i < arr.length; i++)
+		{
+			if(arr[i] > max)
+				max = arr[i];
+		}
+    // add the minimum and maximum value in the array and return it
+		double[] result = {min , max};
+		return result;
+	}
+}
