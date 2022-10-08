@@ -1,0 +1,33 @@
+import java.util.*;
+public class Challenge {
+	public static String[] sortContacts(String[] arr, String sortBy) {
+    // Create a empty string for base case.
+		String[] empty = new String[0];
+		if(arr == null) // base case
+			return empty;
+		// For dictionary order swap the last name and first name of the strings and store it in a array
+		String[] swap = new String[arr.length];
+		for(int i = 0; i < arr.length; i++)
+		{
+			String firstName = arr[i].substring(0, arr[i].indexOf(" "));
+			String lastName = arr[i].substring(arr[i].indexOf(" ") + 1);
+			String swapName = lastName + " " + firstName;
+			swap[i] = swapName;
+		}
+		// Sort the array according to test case.
+		if(sortBy == "ASC")
+			Arrays.sort(swap);
+		if(sortBy == "DESC")
+			Arrays.sort(swap, Collections.reverseOrder());
+		// Rearrange the strings and return the resultant array.
+		String[] res = new String[swap.length];
+		for(int i = 0; i < swap.length; i++)
+		{
+			String firstName = swap[i].substring(0, swap[i].indexOf(" "));
+			String lastName = swap[i].substring(swap[i].indexOf(" ") + 1);
+			String swapName = lastName + " " + firstName;
+			res[i] = swapName;
+		}
+		return res;
+	}
+}
