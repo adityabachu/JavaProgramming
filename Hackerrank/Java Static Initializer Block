@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+public static int H; // Height of the parallelogram
+public static int B; // Breadth of the parallelogram
+public static boolean flag = false; // To check the condition and execute the code in the main block according to test case
+static  // static block
+{
+   Scanner sc = new Scanner(System.in); // Scanner Object
+   B = sc.nextInt();  // Read Breadth of the parallelogram
+   H = sc.nextInt(); // Read Height of the parallelogram
+   if(B > 0 && H > 0) // Check if both are greater than 0
+       flag = true; // Set Flag to true
+   else
+   {
+       System.out.print("java.lang.Exception: Breadth and height must be positive");
+   }
+       
+}
+
+public static void main(String[] args){ // Main Method
+		if(flag){
+			int area=B*H; // Find the area
+			System.out.print(area); // Print the area to the console
+		}
+		
+	}//end of main
+
+}//end of class
+
