@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class Solution {
+    static boolean isAnagram(String a, String b) {
+        // Covert the strings to character arrays
+        char [] a1 = a.toCharArray();
+        char [] b1 = b.toCharArray();
+        // Take a flag variable
+        boolean flag = true;
+        // Convert both the arrays to either lowercase or uppercase
+        for (int i = 0; i < a1.length; i++) {
+            a1[i] = Character.toLowerCase(a1[i]);
+        }
+        for (int i = 0; i < b1.length; i++) {
+            b1[i] = Character.toLowerCase(b1[i]);
+        }
+        // Base Case
+        if(a.length() != b.length())
+        {
+            return false;
+        }
+        else
+         {
+         //Sort Both the arrays
+           for (int i = 0; i < a1.length; i++) {
+           for (int j = 0; j < a1.length; j++) {
+                if (a1[j] > a1[i]) {
+                    char temp1 = a1[i];
+                    a1[i] = a1[j];
+                    a1[j] = temp1;
+                }
+            }
+        }
+         }
+        for (int i = 0; i < b1.length; i++) {
+           for (int j = 0; j < b1.length; j++) {
+                if (b1[j] > b1[i]) {
+                    char temp2 = b1[i];
+                    b1[i] = b1[j];
+                    b1[j] = temp2;
+                }
+            }
+        }
+        // Check if both the arrays are equal
+        for (int i = 0; i < a1.length; i++) {
+           if(a1[i] != b1[i])
+           {
+               flag = false;
+           }
+        }
+          return flag;  
+        }
+    
+
+
+    public static void main(String[] args) {
+    
+        Scanner scan = new Scanner(System.in);
+        String a = scan.next();
+        String b = scan.next();
+        scan.close();
+        boolean ret = isAnagram(a, b);
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+    }
+}
